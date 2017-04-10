@@ -24,14 +24,24 @@ $(function(){
 					arr.pop();
 					canToggle = true;
 				});
+				// 箭头方向改变
+				$(self).find('span').css('-webkit-transform','rotate(0deg)');
 			}else{
 				$(arr[0]).slideUp(180,function(){
 					arr.pop();
 				});
+
+				// 箭头方向改变
+				$('[data-target=' + arr[0] + ']').find('span').css('-webkit-transform','rotate(0deg)');
+
+
 				$(target).slideDown(180,function(){
 					arr.push(target);
 					canToggle = true;
 				});
+
+				// 箭头方向改变
+				$(self).find('span').css('-webkit-transform','rotate(90deg)');
 			}	
 		}
 
