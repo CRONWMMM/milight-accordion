@@ -19,15 +19,15 @@ ul li{
 	line-height : 40px;
 }
 #milight-accordion > li{
+	color : #eee;
 	margin-top : 2px;
-	background-color : #eee;
+	background-color : #323b4c;
 }
 #milight-accordion li:hover{
 	cursor : pointer;
-	color : white;
 }
 #milight-accordion > li:hover{
-	background-color : #9a9a9a;
+	background-color : #5c6679;
 }
 
 
@@ -35,10 +35,10 @@ ul li{
 	display: none;
 }
 #milight-accordion .milight-accordion-sub > li{
-	background-color: #cbd4d8;
+	background-color: #e4e4e4;
 }
 #milight-accordion .milight-accordion-sub > li:hover{
-	background-color: #98a6ad;
+	background-color: #b3b3b3;
 }
 
 
@@ -48,7 +48,7 @@ ul li{
 }
 
 
-@media screen and (min-width:300px) and (max-width:768px){
+@media screen and (max-width:767px){
 	#mi-wrapper{
 		display: none;
 	}
